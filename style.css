@@ -47,9 +47,9 @@ body{
 .container
 {
     padding: 10%;
-    background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
+   
+                
+    background-size:auto;
                 
    /* background-color: rgba(0, 0, 0, 0.553); */
    background-image: url(1041275.jpg);
