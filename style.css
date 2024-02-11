@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+.navbar
+{
+    text-align: center;
+    /* background-color: rgba(8, 226, 250, 0.959); */
+    background-image: url('1041275.jpg');background-position:left 20%;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color:yellow;
+    
+    border-style:double;
+   border-top: 10px;
+   border-left: 0;
+   border-right: 0;
+    
+}
+
+.navbar h1{
+        color: rgb(246, 255, 0);
+        animation: glow 1s infinite alternate;
+    }
+    @keyframes glow{
+        from{
+            text-shadow: 0 0 10px pink,0 0 20px pink,0 0 30px pink;
+    
+        }
+        to{
+            text-shadow: 0 0 20px pink,0 0 30px pink,0 0 40px pink;
+        }
+    }
+
+.container
+{
+    padding: 10%;
+    background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+   /* background-color: rgba(0, 0, 0, 0.553); */
+   background-image: url('1041275.jpg');
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-position: center;
+  
+}
+.book-container
+{
+    padding: 15px;
+    width: 35%;
+    /*background-color: aqua;*/
+    background-image: url(1338709.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    border-radius: 20px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+    color:rgb(239, 255, 17);
+    
+    
+}
+.book-container h3{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    font-variant-caps: all-petite-caps;
+    
+    
+}
+.book-container h1{
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: rgb(228, 70, 128);
+}
+.book-container button{
+    background-color: rgb(255, 255, 71);
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.add-btn
+{
+    background-color:orange;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    
+}
+.add-btn:hover
+{
+    color: rgb(244, 198, 113);
+}
+.popup-overlay
+{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    
+}
+
+.popupbox{
+    background-color: rgb(78, 79, 114);
+    width: 40%;
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 2;
+    display: none;
+    /* background-image: url('550911.jpg'); */
+
+}
+.popupbox input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.popupbox textarea{
+    background-color: transparent;
+    /*border: none;*/
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: black 2px;
+    border-style: solid;
+}
+
+.popupbox input::placeholder{
+    color: black;
+}
+.popupbox textarea::placeholder{
+    color: black;
+}
+.popupbox button{
+    background-color: yellow;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    border-radius: 100%;
+}
+
+
+.popupbox input:focus{
+    outline: none;
+    
+}
+.popupbox textarea:focus{
+    outline: none;
+}
+

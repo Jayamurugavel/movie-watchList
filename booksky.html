@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies watch list</title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    
+
+    <div class="navbar">
+        <h1>MOVIE💕LIST 📺</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h1>Lover</h1>
+            <h3>watch</h3>
+            <p>A person learning how to ride a scooter might not be a big deal but in Prabhuram Vyas’ Lover, Kala (a brilliant Geetha Kailasam), mother of our protagonist Arun (Manikandan), finally learning how to ride a scooter feels like a personal win. Learning to do something new, trying out something that is considered a bad habit, or even realising the future of themselves in a relationship and attempting course correction are all part and parcel of growing up and this doubles as the plot for Prabhuram’s Lover..</p>
+            <button onclick="deletemovie(event)">Delete</button>
+
+        </div>
+        
+
+    </div>
+    <div>
+        <div class="popup-overlay"></div>
+            <div class="popupbox">
+                <h2>Add movie Name:</h2>
+                <form>
+                    <input type="text"
+                    placeholder="type movie name" id="movie-name-input">
+
+                    <input type="text" placeholder="type movie link" id="movie-link-input" >
+                         <textarea placeholder="description" id="movie-descrption-input"></textarea>
+                    <button id="add-movie">Add</button>
+                    <button id="cancel-popup">Cancel</button>
+                </form>
+
+            </div>
+    </div>
+
+    <button class="add-btn" id="add-popupbtn">+</button>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
